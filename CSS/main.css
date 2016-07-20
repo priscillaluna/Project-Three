@@ -158,7 +158,7 @@ textarea:focus {
 
 button {
   width: 100%;
-  margin-top: 10px 0;
+  margin: 10px 0;
   padding: 1rem 2rem;
   border: none;
   font-size: 20px;
@@ -179,9 +179,35 @@ button {
 
 @media (min-width:760px){
 
-  .container {
+.fs-contact,
+.fs-newsletter {
     width: 65%;
     margin: auto;
   }
+
+.fs-contact label {
+  width: 25%;
+  float: left;
+}
+
+.fs-contact input {
+  width: 75%;
+  float: left;
+}
+
+select {
+  display: inline;
+  width: 75%;
+}
+
+.main-header {
+  width: 100%;
+  margin: 0;
+}
+
+input[id="zip"] {
+  width: 180px;
+  margin-right: 35%;
+}
 
 }
