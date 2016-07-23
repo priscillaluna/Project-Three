@@ -76,7 +76,7 @@ legend {
 
 .fs-contact input:focus {
   outline: none;
-  border: 2px solid lightblue;
+  border: 1px solid  #00b8e6;
 }
 
 select {
@@ -89,7 +89,6 @@ select {
   border: 1px solid lightblue;
   color: #ACACAC;
   background-color: #fff;
-  background-image: url('..images/downarrow.png');
 }
 
 select:focus {
@@ -99,6 +98,11 @@ select:focus {
 
 select .arrow {
   text-align: right;
+}
+
+input[id="zip"] {
+  width: 50%;
+  margin-right: 35px;
 }
 
 /* fieldset - newsletter */
